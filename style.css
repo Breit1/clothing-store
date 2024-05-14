@@ -1,0 +1,544 @@
+@font-face {
+  font-display: swap;
+  font-family: "Quantico", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Furore";
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/Furore.woff') format('woff');
+}
+
+body{
+  font-family: "Quantico", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+a { text-decoration: none; 
+    color: #000000;
+  }
+  a:hover{
+    color: #565656;
+  }
+
+  .main-menu {
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 100;
+    margin-top: -10px;
+    font-size: 18px; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; 
+}
+
+.menu,
+.contacts,
+.sign-in,
+.basket {
+    border: 1px solid black;
+    padding: 25px 20px; 
+}
+
+.search {
+    flex: 1; 
+    border: 1px solid black;
+    padding: 21px 100px;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.txt-s-fon {
+  flex: 0;
+  background-color: #D2D2D7;
+  width: 379px;
+  height: 36px;
+  margin-top: -28px;
+  margin-left: -20px;
+}
+
+
+.img-unic {
+    width: 100%;
+}
+
+.block-u-c-a{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.unique-1{
+  width: 49%;
+  aspect-ratio: 1 / 1;
+  border: 1px solid #000000;
+  color: #000000;  
+}
+
+  .un-txt{
+      font-size: 96px;
+      font-family: 'Furore';
+      margin-top: 100px;
+      margin-left: 14%;
+  }
+
+  .un-descr{
+    font-size: 18px;
+    max-width: 470px;
+    margin-left: 14%;
+    margin-top: 30px;
+    line-height: 1.5;
+
+  }
+
+  .un-line{
+    width: 470px;
+    margin-left: 14%;
+    margin-top: 40px;
+  }
+
+  .un-img{
+    margin-left: 14%;
+    margin-top: 10px;
+  }
+
+  .un-line-right{
+    position: relative;
+    width: 1px;
+    height: 260px;
+    background-color: #000000;
+    margin-top: -260px;
+    margin-left: 370px;
+  }
+
+  .un-descr2{
+    position: absolute;
+    width: 240px;
+    margin-left: 10px;
+    margin-top: 206px;
+  }
+
+
+.unique-2{
+  width: 49%;
+  aspect-ratio: 1 / 1;
+  border: 1px solid #000000;
+  color: #000000;
+  position: relative;
+  overflow: hidden;
+}
+
+
+  .line-2{
+    position: absolute;
+    width: 100%;
+    margin-top: 50%;
+  }
+
+  .v-line-2{
+    position: absolute;
+    z-index: 1;
+    background-color: #000000;
+    width: 1px;
+    height: 100%;
+    margin-left: 50%;
+  }
+
+  .clouth-txt{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 12%;
+    font-size: 45px;
+    font-family: 'Furore';
+  }
+
+  .clouth-descr{
+    position: absolute;
+    margin-left: 15%;
+    font-size: 20px;
+    margin-top: 42%;
+  }
+
+  .cl-image-2{
+    position: absolute;
+    margin-left: 50%;
+    width: 50%;
+  }
+
+  .cl-image-3{
+    position: absolute;
+    margin-top: 50%;
+    width: 50%;
+  }
+
+  .acsess-txt{
+    position: absolute;
+    margin-top: 70%;
+    margin-left: 53%;
+    font-size: 45px;
+    font-family: 'Furore';
+  }
+
+  .acsess-descr{
+    position: absolute;
+    margin-left: 66%;
+    font-size: 20px;
+    margin-top: 92%;
+  }
+
+
+
+.unique-3{
+  width: 49%;
+  aspect-ratio: 1 / 1.5;
+  border: 1px solid #000000;
+  color: #000000;
+  position: relative;
+  overflow: hidden;  
+}
+
+.clouth-txt-3{
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 5%;
+  font-size: 45px;
+  font-family: 'Furore';
+}
+
+.acsess-txt-3{
+  position: absolute;
+  margin-top: 70%;
+  margin-left: 57%;
+  font-size: 45px;
+  font-family: 'Furore';
+}
+
+.line-3{
+  position: absolute;
+  width: 100%;
+  margin-top: 100%;
+}
+
+.vintag-txt-3{
+  position: absolute;
+  margin-top: 120%;
+  margin-left: 11%;
+  font-size: 45px;
+  font-family: 'Furore';
+}
+
+.vintag-descr{
+  position: absolute;
+  margin-left: 15%;
+  font-size: 20px;
+  margin-top: 140%;
+}
+
+.cl-image-3-2{
+  position: absolute;
+  margin-top: 100%;
+  width: 50%;
+  margin-left: 50%;
+}
+
+.unique-4{
+  width: 49%;
+  aspect-ratio: 1.5 / 1;
+  border: 1px solid #000000;
+  color: #000000;
+  position: relative;
+  overflow: hidden;
+}
+
+.o-nas{
+  font-size: 40px;
+  font-family: 'Furore';
+  margin-left: 10%;
+  margin-top: 50px;
+}
+
+.history{
+  font-size: 24px;
+  font-family: 'Furore';
+  margin-left: 10%;
+  margin-top: 50px;
+}
+
+.txt-history{
+  font-size: 16px;
+  margin-left: 10%;
+  margin-top: 50px;
+  max-width: 56%;
+  line-height: 1.5;
+}
+
+.bolse{
+  font-size: 18px;
+  margin-left: 10%;
+  margin-top: 130px;
+  padding: 10px;
+
+}
+
+.bord-bols{
+  border: 1px solid #000000;
+  width: 198px;
+  text-align: center;
+  padding: 10px;
+}
+
+.unique-5{
+  width: 49%;
+  aspect-ratio: 1 / 2;
+  border: 1px solid #000000;
+  color: #000000;
+  position: relative;
+  overflow: hidden;
+}
+
+.line-5{
+  width: 100%;
+  margin-top: 100px;
+}
+
+
+
+.v-line-6{
+    position: absolute;
+    z-index: 1;
+    background-color: #000000;
+    width: 1px;
+    height: 50%;
+    margin-left: 50%;
+    margin-top: 50%;
+  }
+
+  .v-line-1-6{
+    position: absolute;
+    z-index: 1;
+    background-color: #000000;
+    width: 1px;
+    height: 10%;
+    margin-left: 25%;
+    margin-top: -2px;
+   
+  }
+
+  .call-number{
+    display: flex;
+    margin-top: 75%;
+    margin-left: 12%;
+  }
+
+  .call-number-2{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 12%;
+  }
+  .number{
+    margin-left: 10px;
+    font-size: 18px;
+  }
+
+  .un-img-6{
+    width: 100%;
+  }
+  .unique-6{
+    width: 49%;
+    aspect-ratio: 1 / 1;
+    border: 1px solid #000000;
+    color: #000000;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .email{
+    font-size: 18px;
+    margin-top: -8%;
+    margin-left: 66%
+  }
+  
+
+    .line-6{
+      position: absolute;
+      width: 100%;
+      margin-top: 70%;
+    }
+  
+    .acsess-txt-6{
+      position: absolute;
+      margin-top: 53%;
+      margin-left: 17%;
+      font-size: 24px;
+      font-family: 'Furore';
+    }
+
+    .acsess-txt-6-2{
+      position: absolute;
+      margin-top: 53%;
+      margin-left: 70%;
+      font-size: 24px;
+      font-family: 'Furore';
+    }
+    
+    .subscribe{
+      position: absolute;
+      margin-left: 8%;
+      margin-top: 2%;
+      font-size: 16px;
+    }
+
+    .soc-l{
+      margin-left: 59%;
+      margin-top: 4%;
+      font-size: 16px;
+      width: 34%;
+    }
+
+    .fon-1{
+      position: relative;
+      width: 98.2%;
+    }
+
+    .unique-7{
+      width: 49%;
+      aspect-ratio: 2 / 1;
+      border: 1px solid #000000;
+      color: #000000;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .line-7{
+      position: absolute;
+      width: 100%;
+      margin-top: 60%;
+    }
+
+    .line-7-2{
+      position: absolute;
+      width: 100%;
+      margin-top: 50%;
+    }
+
+    .v-line-7{
+      position: absolute;
+      z-index: 1;
+      background-color: #000000;
+      width: 1px;
+      height: 100%;
+      margin-left: 50%;
+  
+    }
+
+    .ostav-email{
+      font-size: 18px;
+      max-width: 200px;
+      margin-left: 5%;
+      margin-top: 5%;
+    }
+
+    .pole-email{
+      font-size: 18px;
+      margin-left: 3%;
+      margin-top: 30px;
+      padding: 10px;
+      
+    }
+    
+    .bord-email{
+      border: 1px solid #000000;
+      width: 198px;
+      color: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+    }
+
+    .send{
+      padding: 10px;
+    }
+
+    .block-send{
+      width: 200px;
+      color: #ffffff;
+      background-color: #000000;
+      text-align: center;
+      padding: 10px;
+      margin-left: 4.3%;
+    }
+
+    .block-2{
+        margin-left: 55%;
+        margin-top: -235px;
+    }
+
+    .contacts-2{
+      font-size: 20px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+
+    .phones-2{
+      font-size: 18px;
+      color: rgba(0, 0, 0, 0.5);
+      margin-top: 10px;
+    }
+
+    .phones{
+      margin-top: 5px;
+    }
+
+    .phones-2{
+      font-size: 18px;
+      color: rgba(0, 0, 0, 0.5);
+      margin-top: 10px;
+    }
+
+    .phones{
+      margin-top: 5px;
+    }
+
+    .phones-3{
+      font-size: 18px;
+      color: rgba(0, 0, 0, 0.5);
+      margin-top: 20px;
+    }
+
+
+    .for-pokup{
+      margin-top: 5%;
+      margin-left: 5%;
+      font-size: 20px;
+      color:rgba(0, 0, 0, 0.5)
+    }
+
+    .link-for-p{
+      margin-top: 10px;
+      margin-left: 5%;
+      font-size: 18px;
+    }
+
+    .pr{
+      margin-top: 10px;
+    }
+
+    .for-prod{
+      margin-top: -180px;
+      margin-left: 55%;
+      font-size: 20px;
+      color:rgba(0, 0, 0, 0.5)
+    }
+
+    .link-for-p-2{
+      margin-top: 10px;
+      margin-left: 55%;
+      font-size: 18px;
+    }
